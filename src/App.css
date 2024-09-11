@@ -1,0 +1,167 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 350px;
+  margin-top: 50px;
+  width: 80%;
+  height: auto; /* Changed to auto for dynamic content height */
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #a98b2a;
+}
+
+.content-container {
+  display: flex;
+  min-width: 900px;
+  padding: 100px;
+  background-color: #BBB8B8;
+}
+
+.ai-nav {
+  width: 25%;
+  margin-right: 100px;
+  display: flex;
+}
+
+.ai-nav ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+}
+
+.ai-nav li a {
+  display: block;
+  color: #fff;
+  padding: 25px 16px;
+  text-decoration: none;
+  margin-bottom: 150px;
+  font-size: 40px;
+  border-radius: 20px;
+  background-color: #031843;
+}
+
+.ai-nav li a:hover {
+  background-color: #323b5b;
+}
+
+.dynamic-content {
+  width: 75%;
+  border-left: 5px solid #323b5b;
+  padding: 30px;
+}
+
+/* Quiz Component */
+.quiz-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-question p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.quiz-question ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.quiz-question li {
+  padding: 5px 0;
+}
+
+input[type="text"] {
+  width: calc(100% - 100px);
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Upload Component */
+.upload-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.upload-container input[type="file"] {
+  margin: 20px 0;
+}
+
+.upload-container p {
+  font-style: italic;
+  color: #555;
+}
+
+/* Study Papers Component */
+.study-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.upload-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-style: italic;
+  color: #555;
+}
+
+.study-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 0.9em;
+}
+
+.study-box {
+  background-color: #323b5b;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Style icons in sidebar */
+.ai-nav li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

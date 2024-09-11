@@ -1,0 +1,37 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #1f2a44;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 210px;
+    transition: left 0.3s ease-in-out;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    text-align: start;
+    font-size: 30px;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+
+  .sidebar nav ul li:hover {
+    background-color: #2f3b52;
+    padding-left: 10px;
+    text-align: start;
+    font-size: 35px;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  
